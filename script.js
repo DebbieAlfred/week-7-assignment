@@ -26,11 +26,16 @@ class Dog extends Animal{
     }
     //Overide sound method to includd dog color
     makeSound(){
-        console.log("species:", this.species);
+        console.log("Species:", this.species);
         
-        console.log("sound:", this.sound);
-        console.log("color:", this.color);
+        console.log("Sound:", this.sound);
+        console.log("Color:", this.color);
     }
+    
 }
+//Create instance of Dog class to make it sound 
+const dog = new Dog("dog", "woof", "black");
+console.log(dog);
+dog.makeSound();
 
        
