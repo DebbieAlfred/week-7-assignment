@@ -15,4 +15,11 @@ class Animal {
 const dog1 = new Animal("dog", "woof");
 console.log(dog1);
 dog1.makeSound();
+
+//Create a subclass Dog 
+class Dog extends Animal{
+    
+   
+}
+
        
