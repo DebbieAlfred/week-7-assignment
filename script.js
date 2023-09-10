@@ -4,5 +4,10 @@ class Animal {
        this.species = species;
         this.sound = sound;    
     }
+    //create  method
+    makeSound(){
+        console.log("species:", this.species);
+        console.log("sound:", this.sound);
+    }
 }
        
