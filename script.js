@@ -4,8 +4,12 @@ class Animal {
        this.species = species;
         this.sound = sound;    
     }
+    //Include method
+    makeSound(){
+        console.log(this.sound);
+    }
 }
-//Include method
+
 //Create a subclass Dog 
 //Add additional property for color
 //Overide sound method to includd dog color
