@@ -24,7 +24,13 @@ class Dog extends Animal{
         super(species, sound);
         this.color = color;
     }
-    
+    //Overide sound method to includd dog color
+    makeSound(){
+        console.log("species:", this.species);
+        
+        console.log("sound:", this.sound);
+        console.log("color:", this.color);
+    }
 }
 
        
