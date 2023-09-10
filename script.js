@@ -19,7 +19,12 @@ dog1.makeSound();
 //Create a subclass Dog 
 class Dog extends Animal{
     
-   
+    //Add additional property for color
+    constructor(species, sound, color){
+        super(species, sound);
+        this.color = color;
+    }
+    
 }
 
        
