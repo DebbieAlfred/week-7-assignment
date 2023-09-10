@@ -6,8 +6,13 @@ class Animal {
     }
     //create  method
     makeSound(){
-        console.log("species:", this.species);
-        console.log("sound:", this.sound);
+        console.log("Species:", this.species);
+        console.log("Sound:", this.sound);
     }
+
 }
+//Create instance of Dog class to make it sound 
+const dog1 = new Animal("dog", "woof");
+console.log(dog1);
+dog1.makeSound();
        
